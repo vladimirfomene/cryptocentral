@@ -1,0 +1,17 @@
+{
+  "name": "cryptocentral",
+  "version": "1.0.0",
+  "description": "Backend API for Crypto Central Web App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladimir Fomene",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.12",
+    "objection": "^2.2.3",
+    "pg": "^8.5.1"
+  }
+}
