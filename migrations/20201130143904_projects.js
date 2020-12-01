@@ -8,6 +8,8 @@ exports.up = function (knex) {
     table.string("project_brief");
     table.string("project_url");
     table.string("whitepaper_url");
+    table.integer("points");
+    table.integer("ownerId");
     table.datetime("created_at");
     table.datetime("updated_at");
   });
