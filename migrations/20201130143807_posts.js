@@ -6,7 +6,8 @@ exports.up = function (knex) {
     table.increments("id").primary();
     table.string("post_title");
     table.string("post_url");
-    table.string("author");
+    table.integer("points");
+    table.integer("authorId");
     table.datetime("created_at");
     table.datetime("updated_at");
   });
